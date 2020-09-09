@@ -12,22 +12,25 @@ Installation
 
 Install deep reinforcement learning repository
 
-Clone deep reinforcement learning repository
-Fallow the instructions to install necessary dependencies
+1. Clone deep reinforcement learning repository https://github.com/udacity/deep-reinforcement-learning
+2. Fallow the instructions to install necessary dependencies https://github.com/udacity/deep-reinforcement-learning#dependencies
+
 Download the Unity Environment
 
 Download environment for your system into this repository root
-Linux: click here
 
-Mac OSX: click here
+1. Linux: https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis.app.zip
 
-Windows (32-bit): click here
+Mac OSX: https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/Reacher.app.zip
 
-Windows (64-bit): click here
+Windows (32-bit): https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Windows_x86.zip
 
-Headless: click here
+Windows (64-bit): https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Windows_x86_64.zip
 
-Unzip (or decompress) the archive
+Headless: https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Linux_NoVis.zip
+
+2.Unzip (or decompress) the archive
+
 Run the project
 
 Start the jupyter server
