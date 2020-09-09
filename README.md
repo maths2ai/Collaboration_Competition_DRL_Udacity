@@ -8,14 +8,14 @@ The task is episodic, and in order to solve the environment, your agents must ge
 
 After each episode, we add up the rewards that each agent received (without discounting), to get a score for each agent. This yields 2 (potentially different) scores. We then take the maximum of these 2 scores. This yields a single score for each episode. The environment is considered solved, when the average (over 100 episodes) of those scores is at least +0.5.
 
-Installation
+## Installation
 
 Install deep reinforcement learning repository
 
 1. Clone deep reinforcement learning repository https://github.com/udacity/deep-reinforcement-learning
 2. Fallow the instructions to install necessary dependencies https://github.com/udacity/deep-reinforcement-learning#dependencies
 
-Download the Unity Environment
+## Download the Unity Environment
 
 Download environment for your system into this repository root
 
@@ -31,7 +31,7 @@ Headless: https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Linu
 
 2. Unzip (or decompress) the archive
 
-Run the project
+## Run the project
 
 Start the jupyter server
 
