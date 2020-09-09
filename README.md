@@ -34,6 +34,9 @@ Headless: https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Linu
 Run the project
 
 Start the jupyter server
+
 Open the Tennis.ipynb notebook
+
 Change the kernel to drlnd 
+
 Run cells from top to bottom
