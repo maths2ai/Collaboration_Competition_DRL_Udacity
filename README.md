@@ -29,7 +29,7 @@ Windows (64-bit): https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Ten
 
 Headless: https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Linux_NoVis.zip
 
-2.Unzip (or decompress) the archive
+2. Unzip (or decompress) the archive
 
 Run the project
 
