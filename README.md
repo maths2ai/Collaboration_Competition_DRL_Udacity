@@ -10,15 +10,16 @@ To be more precise, after each episode, we add up the rewards that each agent re
 
 ## Installation
 
-Download the environment (in point 1. below) for your system into the cloned repository directory.
+Download the environment for your system 
 
-1. Linux: https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher_Linux.zip
+Linux: https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis.app.zip
+Mac OSX: https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis.app.zip
 
-Mac OSX: https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher.app.zip
+Windows (32-bit): https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Windows_x86.zip
 
-Windows (32-bit): https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher_Windows_x86.zip
+Windows (64-bit): https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Windows_x86_64.zip
 
-Windows (64-bit): https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher_Windows_x86_64.zip
+Headless: https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Linux_NoVis.zip
 
 2. Unzip (or decompress) the archive downloaded in point 1. above.
 
@@ -27,4 +28,4 @@ Windows (64-bit): https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/on
 # Executing the code:
 
 The code can be executed directly in the jupyter notebook running all the cells in order from the second one till the "Main" cell.
-After the "Main" cell there are some additional cells if one wants to modify DDPG and turn it into a naive version of D4PG. In order to do so follow the instruction into the notebook.
+In order to do so follow the instruction into the notebook.
