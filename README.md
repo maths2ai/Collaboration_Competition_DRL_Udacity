@@ -4,39 +4,27 @@ In this environment, two agents control rackets to bounce a ball over a net. If 
 
 The observation space consists of 8 variables corresponding to the position and velocity of the ball and racket. Each agent receives its own, local observation. Two continuous actions are available, corresponding to movement toward (or away from) the net, and jumping.
 
-The task is episodic, and in order to solve the environment, your agents must get an average score of +0.5 (over 100 consecutive episodes, after taking the maximum over both agents). Specifically,
+The task is episodic, and in order to solve the environment, your agents must get an average score of +0.5 (over 100 consecutive episodes, after taking the maximum over both agents). 
 
-After each episode, we add up the rewards that each agent received (without discounting), to get a score for each agent. This yields 2 (potentially different) scores. We then take the maximum of these 2 scores. This yields a single score for each episode. The environment is considered solved, when the average (over 100 episodes) of those scores is at least +0.5.
+To be more precise, after each episode, we add up the rewards that each agent received (without discounting), to get a score for each agent. This yields 2 (potentially different) scores. We then take the maximum of these 2 scores. This yields a single score for each episode. The environment is considered solved, when the average (over 100 episodes) of these scores is at least +0.5.
 
 ## Installation
 
-Install deep reinforcement learning repository
+Download the environment (in point 1. below) for your system into the cloned repository directory.
 
-1. Clone deep reinforcement learning repository https://github.com/udacity/deep-reinforcement-learning
-2. Fallow the instructions to install necessary dependencies https://github.com/udacity/deep-reinforcement-learning#dependencies
+1. Linux: https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher_Linux.zip
 
-## Download the Unity Environment
+Mac OSX: https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher.app.zip
 
-Download environment for your system into this repository root
+Windows (32-bit): https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher_Windows_x86.zip
 
-1. Linux: https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis.app.zip
+Windows (64-bit): https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher_Windows_x86_64.zip
 
-Mac OSX: https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis.app.zip
+2. Unzip (or decompress) the archive downloaded in point 1. above.
 
-Windows (32-bit): https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Windows_x86.zip
+3. Run the requirements.txt in the shell: pip install -r requirements.txt
 
-Windows (64-bit): https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Windows_x86_64.zip
+# Executing the code:
 
-Headless: https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Linux_NoVis.zip
-
-2. Unzip (or decompress) the archive
-
-## Run the project
-
-Start the jupyter server
-
-Open the Tennis.ipynb notebook
-
-Change the kernel to drlnd 
-
-Run cells from top to bottom
+The code can be executed directly in the jupyter notebook running all the cells in order from the second one till the "Main" cell.
+After the "Main" cell there are some additional cells if one wants to modify DDPG and turn it into a naive version of D4PG. In order to do so follow the instruction into the notebook.
